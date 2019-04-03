@@ -8,7 +8,7 @@ import (
     "github.com/gorilla/mux"
 )
 
-// <- version ->
+// <- version -> 
 type Version struct {
     State string `json:"version,omitempty"`
 }
